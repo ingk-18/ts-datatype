@@ -54,6 +54,8 @@ function App() {
   status = false; // OK
   // status = 1; // エラー：1はStatus型に含まれていない値
 
+
+
   return <div className="App"></div>;
 }
 
