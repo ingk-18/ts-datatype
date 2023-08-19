@@ -18,6 +18,12 @@ function App() {
   // リテラル型
   type UserGender = "man" | "woman" | "others";
 
+  type UserProfile = {
+    name: UserName;
+    age: UserAge;
+    gender: UserGender;
+  };
+
   const userProfile: UserProfile = {
     name: "Ryo",
     age: 21,
